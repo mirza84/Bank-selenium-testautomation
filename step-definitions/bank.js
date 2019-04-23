@@ -2,7 +2,7 @@ let { $, sleep } = require('./funcs')
 
 module.exports = function () {
 
-    let username = 'Mirza'
+    let username = 'testare'
     let password = 'testare'
 
     this.Given(/^that I am on the login page$/, async function () {
