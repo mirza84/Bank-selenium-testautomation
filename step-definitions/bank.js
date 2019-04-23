@@ -30,8 +30,9 @@ module.exports = function () {
     let oldValueToAccount;
     this.Then(/^I should get access to my account$/, async function () {
         // spara värde för att kunna jämföra senare is scenariot för att överföra till mina konton
-         oldValueToAccount = await driver.findElement(By.xpath('/html/body/main/div/article/section[2]/table/tbody/tr[2]/td[2]'))
-         oldValueToAccount.getText()
+        let tdWithBalance = await driver.findElement(By.xpath('/html/body/main/div/article/section[2]/table/tbody/tr[2]/td[2]'))
+        oldValueToAccount = await tdWithBalance.getText();
+        console.log("SETTING oldValueToAccount to", oldValueToAccount);
 
         let contents = await driver.findElement(By.className("username"))
         contents = await contents.getText()
@@ -110,7 +111,6 @@ module.exports = function () {
         await driver.findElement(By.xpath("/html/body/main/div/aside/nav/ul/li[6]/button/a")).click()
         //driver.click()
         await sleep(2000)
-        console.log(oldValueToAccount)
       })
 
       this.When(/^choose to transfer from 'Lönekonto' to 'Sparkonto'$/, async function () {
@@ -131,9 +131,10 @@ module.exports = function () {
         await sleep(3000);
       })
 
+      let moneySent = 1000
       this.When(/^enter the amount to be transferred$/, async function () {
         let body = await $('#sum')
-        await body.sendKeys('1000')
+        await body.sendKeys(moneySent)
         await sleep(2000)
       })
 
@@ -143,6 +144,11 @@ module.exports = function () {
       })
 
       this.Then(/^I should be able to see the transfer$/, async function () {
-        
+        let newValue = await driver.findElement(By.xpath('/html/body/main/div/article/section[1]/table/tbody/tr[2]/td[2]'))
+        let newValueToAccount = await newValue.getText()
+        console.log('newValue is ' + newValueToAccount)
+
+        let test = oldValueToAccount + moneySent
+        assert(newValueToAccount > test, 'Fel. oldValueToAccount är ' + oldValueToAccount + 'medan newValue är ' + test)
       });
 }
