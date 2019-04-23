@@ -13,11 +13,11 @@
             "name": "that I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 8649294676
+              "duration": 4366385581
             },
             "line": 38,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:8"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:8"
             }
           },
           {
@@ -26,11 +26,11 @@
             "name": "that I enter my user name as 'Mirza' and password as 'tester'",
             "result": {
               "status": "passed",
-              "duration": 1125731715
+              "duration": 1164122095
             },
             "line": 39,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:13"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:13"
             }
           },
           {
@@ -39,11 +39,11 @@
             "name": "I press the login button",
             "result": {
               "status": "passed",
-              "duration": 1001899542
+              "duration": 1001855447
             },
             "line": 40,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:24"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:24"
             }
           },
           {
@@ -52,11 +52,11 @@
             "name": "I should get access to my account",
             "result": {
               "status": "passed",
-              "duration": 1054296057
+              "duration": 1077987314
             },
             "line": 41,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:31"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:31"
             }
           },
           {
@@ -65,11 +65,11 @@
             "name": "I press 'Överföringar mina konton' button",
             "result": {
               "status": "passed",
-              "duration": 2066812816
+              "duration": 2069212239
             },
             "line": 42,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:108"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:109"
             }
           },
           {
@@ -78,11 +78,11 @@
             "name": "choose to transfer from 'Lönekonto' to 'Sparkonto'",
             "result": {
               "status": "passed",
-              "duration": 6373633267
+              "duration": 6466232271
             },
             "line": 43,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:116"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:116"
             }
           },
           {
@@ -91,11 +91,11 @@
             "name": "enter the amount to be transferred",
             "result": {
               "status": "passed",
-              "duration": 2065527195
+              "duration": 2101513970
             },
             "line": 44,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:134"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:135"
             }
           },
           {
@@ -104,11 +104,11 @@
             "name": "I press the 'Utför' button",
             "result": {
               "status": "passed",
-              "duration": 2076455743
+              "duration": 2107200054
             },
             "line": 45,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:140"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:141"
             }
           },
           {
@@ -117,11 +117,11 @@
             "name": "I should be able to see the transfer",
             "result": {
               "status": "passed",
-              "duration": 117462
+              "duration": 58956533
             },
             "line": 46,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:145"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\step-definitions\\bank.js:146"
             }
           },
           {
@@ -129,11 +129,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 184332440
+              "duration": 201371685
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\HP\\Desktop\\Bank-selenium-testautomation\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -146,6 +146,6 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/Users/HP/Desktop/Bank-master/features/bank.feature"
+    "uri": "C:/Users/HP/Desktop/Bank-selenium-testautomation/features/bank.feature"
   }
 ]
