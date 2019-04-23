@@ -1,0 +1,151 @@
+[
+  {
+    "elements": [
+      {
+        "id": ";transfer-money-between-my-accounts",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Transfer money between my accounts",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 8649294676
+            },
+            "line": 38,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I enter my user name as 'Mirza' and password as 'tester'",
+            "result": {
+              "status": "passed",
+              "duration": 1125731715
+            },
+            "line": 39,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press the login button",
+            "result": {
+              "status": "passed",
+              "duration": 1001899542
+            },
+            "line": 40,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get access to my account",
+            "result": {
+              "status": "passed",
+              "duration": 1054296057
+            },
+            "line": 41,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press 'Överföringar mina konton' button",
+            "result": {
+              "status": "passed",
+              "duration": 2066812816
+            },
+            "line": 42,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "choose to transfer from 'Lönekonto' to 'Sparkonto'",
+            "result": {
+              "status": "passed",
+              "duration": 6373633267
+            },
+            "line": 43,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:116"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enter the amount to be transferred",
+            "result": {
+              "status": "passed",
+              "duration": 2065527195
+            },
+            "line": 44,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:134"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I press the 'Utför' button",
+            "result": {
+              "status": "passed",
+              "duration": 2076455743
+            },
+            "line": 45,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:140"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be able to see the transfer",
+            "result": {
+              "status": "passed",
+              "duration": 117462
+            },
+            "line": 46,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\step-definitions\\bank.js:145"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 184332440
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\HP\\Desktop\\Bank-master\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/HP/Desktop/Bank-master/features/bank.feature"
+  }
+]

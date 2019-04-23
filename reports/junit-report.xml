@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";transfer-money-between-my-accounts" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/HP/Desktop/Bank-master/features/bank.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="8.649294676">
+        </testcase>
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.125731715">
+        </testcase>
+        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.001899542">
+        </testcase>
+        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.054296057">
+        </testcase>
+        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.066812816">
+        </testcase>
+        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.373633267">
+        </testcase>
+        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.065527195">
+        </testcase>
+        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.076455743">
+        </testcase>
+        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.000117462">
+        </testcase>
+    </testsuite>
+</testsuites>
