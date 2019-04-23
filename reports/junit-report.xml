@@ -5,23 +5,23 @@
             <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/bank.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="4.366385581">
+        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="4.580075974">
         </testcase>
-        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.164122095">
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.244704982">
         </testcase>
-        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.001855447">
+        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.002905764">
         </testcase>
-        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.077987314">
+        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.120615457">
         </testcase>
-        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.069212239">
+        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.129985825">
         </testcase>
-        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.466232271">
+        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.589040356">
         </testcase>
-        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.10151397">
+        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.100057667">
         </testcase>
-        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.107200054">
+        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.158261148">
         </testcase>
-        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.058956533">
+        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.098894449">
         </testcase>
     </testsuite>
 </testsuites>

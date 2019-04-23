@@ -13,7 +13,7 @@
             "name": "that I am on the login page",
             "result": {
               "status": "passed",
-              "duration": 4366385581
+              "duration": 4580075974
             },
             "line": 38,
             "match": {
@@ -26,7 +26,7 @@
             "name": "that I enter my user name as 'Mirza' and password as 'tester'",
             "result": {
               "status": "passed",
-              "duration": 1164122095
+              "duration": 1244704982
             },
             "line": 39,
             "match": {
@@ -39,7 +39,7 @@
             "name": "I press the login button",
             "result": {
               "status": "passed",
-              "duration": 1001855447
+              "duration": 1002905764
             },
             "line": 40,
             "match": {
@@ -52,7 +52,7 @@
             "name": "I should get access to my account",
             "result": {
               "status": "passed",
-              "duration": 1077987314
+              "duration": 1120615457
             },
             "line": 41,
             "match": {
@@ -65,7 +65,7 @@
             "name": "I press 'Överföringar mina konton' button",
             "result": {
               "status": "passed",
-              "duration": 2069212239
+              "duration": 2129985825
             },
             "line": 42,
             "match": {
@@ -78,7 +78,7 @@
             "name": "choose to transfer from 'Lönekonto' to 'Sparkonto'",
             "result": {
               "status": "passed",
-              "duration": 6466232271
+              "duration": 6589040356
             },
             "line": 43,
             "match": {
@@ -91,7 +91,7 @@
             "name": "enter the amount to be transferred",
             "result": {
               "status": "passed",
-              "duration": 2101513970
+              "duration": 2100057667
             },
             "line": 44,
             "match": {
@@ -104,7 +104,7 @@
             "name": "I press the 'Utför' button",
             "result": {
               "status": "passed",
-              "duration": 2107200054
+              "duration": 2158261148
             },
             "line": 45,
             "match": {
@@ -117,7 +117,7 @@
             "name": "I should be able to see the transfer",
             "result": {
               "status": "passed",
-              "duration": 58956533
+              "duration": 98894449
             },
             "line": 46,
             "match": {
@@ -129,7 +129,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 201371685
+              "duration": 295774059
             },
             "hidden": true,
             "match": {

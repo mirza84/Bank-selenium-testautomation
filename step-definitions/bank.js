@@ -146,9 +146,11 @@ module.exports = function () {
       this.Then(/^I should be able to see the transfer$/, async function () {
         let newValue = await driver.findElement(By.xpath('/html/body/main/div/article/section[1]/table/tbody/tr[2]/td[2]'))
         let newValueToAccount = await newValue.getText()
+        newValueToAccount = newValueToAccount.replace(/\D/g,'')/100 //remove all chararters that are not numbers
         console.log('newValue is ' + newValueToAccount)
 
+        oldValueToAccount = oldValueToAccount.replace(/\D/g,'')/100
         let test = oldValueToAccount + moneySent
-        assert(newValueToAccount > test, 'Fel. oldValueToAccount är ' + oldValueToAccount + 'medan newValue är ' + test)
+        assert(newValueToAccount === test, 'Fel. oldValueToAccount är ' + oldValueToAccount + 'medan newValue är ' + test)
       });
 }
