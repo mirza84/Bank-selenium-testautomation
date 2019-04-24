@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";transfer-money-between-my-accounts" tests="9" failures="0" skipped="0">
+    <testsuite name=";to-be-able-to-rename-an-account" tests="11" failures="1" skipped="3">
         <properties>
-            <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/bank.feature">
+            <property name="URI" value="C:\Users\HP\Desktop\Bank-selenium-testautomation\features\renameAccount.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="4.580075974">
+        <testcase name="Given that I am on the login page" classname=";to-be-able-to-rename-an-account" time="4.129562352">
         </testcase>
-        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.244704982">
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";to-be-able-to-rename-an-account" time="1.173496645">
         </testcase>
-        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.002905764">
+        <testcase name="When I press the login button" classname=";to-be-able-to-rename-an-account" time="1.001430834">
         </testcase>
-        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.120615457">
+        <testcase name="Then I should get access to my account" classname=";to-be-able-to-rename-an-account" time="1.061247616">
         </testcase>
-        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.129985825">
+        <testcase name="When I press &apos;Mina konton&apos; button" classname=";to-be-able-to-rename-an-account" time="1.000766736">
         </testcase>
-        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.589040356">
+        <testcase name="Then &apos;my-accounts&apos; page should load" classname=";to-be-able-to-rename-an-account" time="0.028967932">
         </testcase>
-        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.100057667">
+        <testcase name="When I press the &apos;ändra kontonamn&apos; button" classname=";to-be-able-to-rename-an-account" time="1.065311277">
         </testcase>
-        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.158261148">
+        <testcase name="Then &apos;Ändra namn på konto&apos; popup window should appear" classname=";to-be-able-to-rename-an-account" time="0.058295855">
+            <failure message="AssertionError: Popup -Ändra namn på konto- kan inte laddas! ">AssertionError: Popup -Ändra namn på konto- kan inte laddas! 
+    at createWorld.&lt;anonymous&gt; (C:\Users\HP\Desktop\Bank-selenium-testautomation\step-definitions\renameAccount.js:17:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
         </testcase>
-        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.098894449">
+        <testcase name="When I enter an account name" classname=";to-be-able-to-rename-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And press the &apos;ändra&apos; button" classname=";to-be-able-to-rename-an-account">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the account name should be changed" classname=";to-be-able-to-rename-an-account">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
