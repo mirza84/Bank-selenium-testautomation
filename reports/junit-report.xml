@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";transfer-money-between-my-accounts" tests="9" failures="0" skipped="0">
+    <testsuite name=";transfer-money-between-my-accounts" tests="12" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/HP/Desktop/Bank-master/features/bank.feature">
+            <property name="URI" value="/Users/Ernad.C/Desktop/Bank-selenium-testautomation/features/bank.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="8.649294676">
+        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="2.816008199">
         </testcase>
-        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.125731715">
+        <testcase name="And that I enter my user name as &apos;tester&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.2256284">
         </testcase>
-        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.001899542">
+        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.009226793">
         </testcase>
-        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.054296057">
+        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.070211062">
         </testcase>
-        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.066812816">
+        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.09266452">
         </testcase>
-        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.373633267">
+        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="2.926610285">
         </testcase>
-        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.065527195">
+        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="1.080292415">
         </testcase>
-        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.076455743">
+        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="1.101383273">
         </testcase>
-        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.000117462">
+        <testcase name="And I choose to transfer ten times" classname=";transfer-money-between-my-accounts" time="10.455928423">
+        </testcase>
+        <testcase name="Then when I press &apos;Mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="5.006748892">
+        </testcase>
+        <testcase name="And press &apos;Lönekonto&apos;" classname=";transfer-money-between-my-accounts" time="3.000330715">
+        </testcase>
+        <testcase name="Then I should be able to see the last ten transfers" classname=";transfer-money-between-my-accounts" time="0.000488077">
         </testcase>
     </testsuite>
 </testsuites>
