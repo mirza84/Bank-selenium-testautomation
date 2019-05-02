@@ -1,25 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";to-be-able-to-rename-an-account" tests="11" failures="1" skipped="3">
+    <testsuite name=";log-in-into-my-account" tests="4" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\HP\Desktop\Bank-selenium-testautomation\features\renameAccount.feature">
+            <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/bank.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the login page" classname=";to-be-able-to-rename-an-account" time="4.129562352">
+        <testcase name="Given that I am on the login page" classname=";log-in-into-my-account" time="4.331683794">
         </testcase>
-        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";to-be-able-to-rename-an-account" time="1.173496645">
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";log-in-into-my-account" time="1.18241396">
         </testcase>
-        <testcase name="When I press the login button" classname=";to-be-able-to-rename-an-account" time="1.001430834">
+        <testcase name="When I press the login button" classname=";log-in-into-my-account" time="1.003272597">
         </testcase>
-        <testcase name="Then I should get access to my account" classname=";to-be-able-to-rename-an-account" time="1.061247616">
+        <testcase name="Then I should get access to my account" classname=";log-in-into-my-account" time="1.117118624">
         </testcase>
-        <testcase name="When I press &apos;Mina konton&apos; button" classname=";to-be-able-to-rename-an-account" time="1.000766736">
+    </testsuite>
+    <testsuite name=";to-be-able-to-create-an-account" tests="11" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/createAccount.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the login page" classname=";to-be-able-to-create-an-account" time="3.744524509">
         </testcase>
-        <testcase name="Then &apos;my-accounts&apos; page should load" classname=";to-be-able-to-rename-an-account" time="0.028967932">
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";to-be-able-to-create-an-account" time="1.16824284">
         </testcase>
-        <testcase name="When I press the &apos;ändra kontonamn&apos; button" classname=";to-be-able-to-rename-an-account" time="1.065311277">
+        <testcase name="When I press the login button" classname=";to-be-able-to-create-an-account" time="1.000671321">
         </testcase>
-        <testcase name="Then &apos;Ändra namn på konto&apos; popup window should appear" classname=";to-be-able-to-rename-an-account" time="0.058295855">
+        <testcase name="Then I should get access to my account" classname=";to-be-able-to-create-an-account" time="1.08200805">
+        </testcase>
+        <testcase name="When I press &apos;Mina konton&apos; button" classname=";to-be-able-to-create-an-account" time="1.000537894">
+        </testcase>
+        <testcase name="Then &apos;my-accounts&apos; page should load" classname=";to-be-able-to-create-an-account" time="0.025940155">
+        </testcase>
+        <testcase name="When I press &apos;Lägg till ett nytt konto&apos; button" classname=";to-be-able-to-create-an-account" time="2.000436777">
+        </testcase>
+        <testcase name="And &apos;Lägg till konto&apos; popup window should appear" classname=";to-be-able-to-create-an-account" time="0.078935784">
+        </testcase>
+        <testcase name="When I enter an account name" classname=";to-be-able-to-create-an-account" time="1.098527274">
+        </testcase>
+        <testcase name="And press the &apos;Lägg till&apos; button" classname=";to-be-able-to-create-an-account" time="2.002120023">
+        </testcase>
+        <testcase name="Then the account should be added to the account list" classname=";to-be-able-to-create-an-account" time="0.078385346">
+        </testcase>
+    </testsuite>
+    <testsuite name=";transfer-money-between-my-accounts" tests="9" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/moneyTransfer.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the login page" classname=";transfer-money-between-my-accounts" time="3.862250972">
+        </testcase>
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";transfer-money-between-my-accounts" time="1.150509459">
+        </testcase>
+        <testcase name="When I press the login button" classname=";transfer-money-between-my-accounts" time="1.0008363">
+        </testcase>
+        <testcase name="Then I should get access to my account" classname=";transfer-money-between-my-accounts" time="1.0669744">
+        </testcase>
+        <testcase name="When I press &apos;Överföringar mina konton&apos; button" classname=";transfer-money-between-my-accounts" time="2.074076115">
+        </testcase>
+        <testcase name="And choose to transfer from &apos;Lönekonto&apos; to &apos;Sparkonto&apos;" classname=";transfer-money-between-my-accounts" time="6.498601857">
+        </testcase>
+        <testcase name="And enter the amount to be transferred" classname=";transfer-money-between-my-accounts" time="2.120145653">
+        </testcase>
+        <testcase name="When I press the &apos;Utför&apos; button" classname=";transfer-money-between-my-accounts" time="2.130930133">
+        </testcase>
+        <testcase name="Then I should be able to see the transfer" classname=";transfer-money-between-my-accounts" time="0.073194958">
+            <failure message="ReferenceError: oldValueToAccount is not defined">ReferenceError: oldValueToAccount is not defined
+    at createWorld.&lt;anonymous&gt; (C:\Users\HP\Desktop\Bank-selenium-testautomation\step-definitions\moneyTransfer.js:49:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";to-be-able-to-rename-an-account" tests="11" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/HP/Desktop/Bank-selenium-testautomation/features/renameAccount.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the login page" classname=";to-be-able-to-rename-an-account" time="3.759710975">
+        </testcase>
+        <testcase name="And that I enter my user name as &apos;Mirza&apos; and password as &apos;tester&apos;" classname=";to-be-able-to-rename-an-account" time="1.165888653">
+        </testcase>
+        <testcase name="When I press the login button" classname=";to-be-able-to-rename-an-account" time="1.00169541">
+        </testcase>
+        <testcase name="Then I should get access to my account" classname=";to-be-able-to-rename-an-account" time="1.077417517">
+        </testcase>
+        <testcase name="When I press &apos;Mina konton&apos; button" classname=";to-be-able-to-rename-an-account" time="1.000261915">
+        </testcase>
+        <testcase name="Then &apos;my-accounts&apos; page should load" classname=";to-be-able-to-rename-an-account" time="0.077152562">
+        </testcase>
+        <testcase name="When I press the &apos;ändra kontonamn&apos; button" classname=";to-be-able-to-rename-an-account" time="1.067838451">
+        </testcase>
+        <testcase name="Then &apos;Ändra namn på konto&apos; popup window should appear" classname=";to-be-able-to-rename-an-account" time="0.070805419">
             <failure message="AssertionError: Popup -Ändra namn på konto- kan inte laddas! ">AssertionError: Popup -Ändra namn på konto- kan inte laddas! 
     at createWorld.&lt;anonymous&gt; (C:\Users\HP\Desktop\Bank-selenium-testautomation\step-definitions\renameAccount.js:17:9)
     at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
